@@ -25,6 +25,6 @@ jobs:
         # Replace 'your-dockerhub-username' and 'your-image-name' with your Docker Hub username and image name
 
       - name: Push Docker Image to Docker Hub
-        run: docker jonasdoubleu/cicd-kurs:latest
+        run: docker push jonasdoubleu/cicd-kurs:latest
         # Replace 'your-dockerhub-username' and 'your-image-name' with your Docker Hub username and image name
 
