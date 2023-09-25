@@ -21,10 +21,10 @@ jobs:
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker Image
-        run: docker build -t JonasDoubleU/CICDKurs:latest .
+        run: docker build -t JonasDoubleU/cicd-kurs:latest .
         # Replace 'your-dockerhub-username' and 'your-image-name' with your Docker Hub username and image name
 
       - name: Push Docker Image to Docker Hub
-        run: docker JonasDoubleU/CICDKurs:latest
+        run: docker JonasDoubleU/cicd-kurs:latest
         # Replace 'your-dockerhub-username' and 'your-image-name' with your Docker Hub username and image name
 
